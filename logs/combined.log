@@ -21755,3 +21755,6 @@
 {"level":"info","message":"::ffff:127.0.0.1 - - [01/Oct/2025:10:32:15 +0000] \"GET /health HTTP/1.1\" 200 75 \"-\" \"-\"","service":"acquisition-api"}
 {"level":"info","message":"::ffff:127.0.0.1 - - [01/Oct/2025:10:32:15 +0000] \"GET /api HTTP/1.1\" 200 48 \"-\" \"-\"","service":"acquisition-api"}
 {"level":"info","message":"::ffff:127.0.0.1 - - [01/Oct/2025:10:32:15 +0000] \"GET /nonexistent HTTP/1.1\" 404 27 \"-\" \"-\"","service":"acquisition-api"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [01/Oct/2025:11:12:59 +0000] \"GET /health HTTP/1.1\" 200 75 \"-\" \"-\"","service":"acquisition-api"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [01/Oct/2025:11:12:59 +0000] \"GET /api HTTP/1.1\" 200 48 \"-\" \"-\"","service":"acquisition-api"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [01/Oct/2025:11:12:59 +0000] \"GET /nonexistent HTTP/1.1\" 404 27 \"-\" \"-\"","service":"acquisition-api"}

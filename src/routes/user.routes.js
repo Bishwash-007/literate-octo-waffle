@@ -5,7 +5,10 @@ import {
   updateUserById,
   deleteUserById,
 } from '#controllers/user.controllers.js';
-import { authenticateToken, requireRole } from '#middleware/auth.middlewares.js';
+import {
+  authenticateToken,
+  requireRole,
+} from '#middleware/auth.middlewares.js';
 
 const router = express.Router();
 

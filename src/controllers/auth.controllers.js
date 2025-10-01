@@ -95,7 +95,6 @@ export const signIn = async (req, res, next) => {
 
 export const signOut = async (req, res, next) => {
   try {
-    
     cookies.clear(res, 'token');
     logger.info('User signed out successfully');
 
